@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>HTML internal links</title>
+        <style>
+        
+           h2 {
+            color: white;
+            }
+          
+          .myDiv {
+            border: 5px outset red;
+            background-color: lightblue;    
+            text-align: center;
+        }
+          
+          #nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #8b85cc;
+        }
+            
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+          </style>
+    </head>
+    <body id="body1">
+    
+        <ul id="nav-bar">
+        <li><i class="fa fa-home"><a href="https://arjunrajesh1105.github.io/index.html">Home</a></i></li>
+        <li><a href="https://arjunrajesh1105.github.io/contacts.html">Contact</a></li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">More</a><span style='font-size: 20px; color: white;'>&#8595;</span>
+        <div class="dropdown-content">
+        <a href="https://arjunrajesh1105.github.io/extracurriculars.html">Extracurriculars</a>
+        <a href="https://arjunrajesh1105.github.io/employment.html">Employment</a>
+        </div>
+    </li>
+ </ul>
+        
+        <div class="myDiv">
+            <h2>CONTACTS</h2>
+        </div>
+      
+      <p>
+        Email: arjun110503@gmail.com <br>
+        Phone Number: (469)826-9429 <br>
+        
